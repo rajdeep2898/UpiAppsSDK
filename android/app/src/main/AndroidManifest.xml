@@ -2,7 +2,14 @@
   package="com.upiappssdk">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <queries>
+        <package android:name="com.phonepe.app" /><!-- phonepe -->
+        <package android:name="com.google.android.apps.nbu.paisa.user" /><!-- phonepe -->
+        <package android:name="net.one97.paytm" /><!-- phonepe -->
+        <package android:name="in.org.npci.upiapp" /><!-- phonepe -->
+        <package android:name="in.amazon.Shop.android.shopping" /><!-- phonepe -->
 
+    </queries>
     <application
       android:name=".MainApplication"
       android:label="@string/app_name"
